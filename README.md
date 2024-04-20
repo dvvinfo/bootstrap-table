@@ -1,4 +1,4 @@
-# Bootstrap-table
+# Bootstrap-chart
 
 Тестовое задание на Bootstrap, Juery.
 
