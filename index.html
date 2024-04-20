@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Страница с таблицей и графиками</title>
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="text-center">Таблица и графики</h1>
+  <div class="row mt-5 " >
+    <div class="col-md-6">
+      <canvas id="cityPopulationChart"></canvas>
+    </div>
+    <div class="col-md-6">
+      <canvas id="cityCarRatioChart"></canvas>
+    </div>
+  </div>
+  <table class="table mt-4">
+    <thead>
+      <tr>
+        <th>Город</th>
+        <th>Кол-во жителей</th>
+        <th>Кол-во авто</th>
+      </tr>
+    </thead>
+    <tbody id="tableBody">
+      <!-- Тут будут заполненные данные из JSON -->
+    </tbody>
+  </table>
+</div>
+
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/chart.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
